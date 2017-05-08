@@ -11,7 +11,10 @@ var index = require('./routes/index');
 
 var app = express();
 
-mongoose.connect();
+mongoose.Promise = global.Promise;
+mongoose.connect('localhost:27017/shopping');
+
+
 
 // view engine setup
 app.engine('.hbs', expressHbs({defaultLayout: 'layout', extname: '.hbs'}));
