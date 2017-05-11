@@ -31,26 +31,26 @@ var products = [
 
 	// Product 4
 	new Product({
-		imagePath: 'https://cdn.pixabay.com/photo/2016/09/08/18/45/cube-1655118_960_720.jpg',
-		title: 'Random Dice',
+		imagePath: 'https://cdn.pixabay.com/photo/2015/03/05/17/40/fish-660675_960_720.png',
+		title: 'Fish',
 		description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-		price: 12
+		price: 5
 	}),
 
 	// Product 5
 	new Product({
-		imagePath: 'https://cdn.pixabay.com/photo/2016/09/10/11/42/quadrocopter-1658967_960_720.png',
-		title: 'Drone',
+		imagePath: 'https://cdn.pixabay.com/photo/2015/11/09/07/51/china-1034798_960_720.jpg',
+		title: 'Japanese Flute Girl',
 		description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-		price: 111
+		price: 220
 	}),
 
 	// Product 6
 	new Product({
-		imagePath: 'https://cdn.pixabay.com/photo/2013/11/11/11/18/toy-208714_960_720.jpg',
-		title: 'Weird Bunny',
+		imagePath: 'https://cdn.pixabay.com/photo/2015/07/03/10/32/musician-830027_960_720.jpg',
+		title: 'Saxaphone Dude',
 		description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-		price: 15
+		price: 8
 	}),
 ];
 

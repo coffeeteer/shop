@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
 		var productChunks = [];
 		chunkSize = 3;
 		for(var i = 0; i < docs.length; i += chunkSize){
-			productChunks.push(doc.slice(i, i  + chunkSize));
+			productChunks.push(docs.slice(i, i + chunkSize));
 		}
 		res.render('shop/index', { title: 'Shopping Cart', products: productChunks });
 	});
