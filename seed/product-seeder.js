@@ -55,13 +55,14 @@ var products = [
 ];
 
 var done = 0;
-for(var i = 0; i < products.length; i++){
-	products[i].save(function(err, result) {
-		done++;
-		if(done === products.length){
-			exit();
-		}
-	});
+for (var i = 0; i < products.length; i++) {
+    products[i].save(function(err, result) {
+        console.log('products ' + i);
+        done++;
+        if (done === products.length) {
+            exit();
+        }
+    });
 }
 
 function exit() {

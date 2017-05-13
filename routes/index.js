@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
 	Product.find(function(err, docs){
 		console.log('here 2');
 		var productChunks = [];
-		chunkSize = 3;
+		var chunkSize = 3;
 		console.log('here 3');
 		for(var i = 0; i < docs.length; i += chunkSize){
 			console.log('here 4');
