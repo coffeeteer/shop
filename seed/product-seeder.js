@@ -1,7 +1,7 @@
 var Product = require('../models/product');
 
 var mongoose = require('mongoose');
-mongoose.Promise = global.Promise;
+//mongoose.Promise = global.Promise;
 mongoose.connect('localhost:27017/shopping');
 
 var products = [
@@ -55,9 +55,19 @@ var products = [
 ];
 
 var done = 0;
+// for (var i = 0; i < products.length; i++) {
+//     products[i].save(function(err, result) {
+//         console.log('products ' + i);
+//         done++;
+//         if (done === products.length) {
+//             exit();
+//         }
+//     });
+// }
+
 for (var i = 0; i < products.length; i++) {
-    products[i].save(function(err, result) {
-        console.log('products ' + i);
+    products[i].update(function(err, result) {
+        console.log('products update' + i);
         done++;
         if (done === products.length) {
             exit();
