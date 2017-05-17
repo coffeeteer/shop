@@ -1,6 +1,5 @@
 var express = require('express');
 var router = express.Router();
-var Product = require('../models/product.js');
 var csrf = require('csurf');
 var passport = require('passport');
 
