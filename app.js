@@ -20,8 +20,6 @@ mongoose.Promise = global.Promise;
 mongoose.connect('localhost:27017/shopping');
 require('./config/passport');
 
-
-
 // view engine setup
 app.engine('.hbs', expressHbs({defaultLayout: 'layout', extname: '.hbs'}));
 app.set('views', path.join(__dirname, 'views'));
