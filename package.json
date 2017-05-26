@@ -22,7 +22,8 @@
     "morgan": "~1.8.1",
     "passport": "^0.3.2",
     "passport-local": "^1.0.0",
-    "serve-favicon": "~2.4.2"
+    "serve-favicon": "~2.4.2",
+    "stripe": "^4.22.0"
   },
   "description": "Practicing developing an online shop in node\"",
   "main": "app.js",
